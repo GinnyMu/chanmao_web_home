@@ -1609,7 +1609,9 @@
 	}
 
 }
-
+#ios-download-mobi{
+	display: none;
+}
 @media (max-width: 479px) {
 
 	.container,
@@ -1772,6 +1774,15 @@
 	}
 
 	.button.button-desc span { font-size: 11px; }
+	#qrCodeBox{
+		display: none;
+	}
+	#ios-download{
+		display:none;
+	}
+	#ios-download-mobi{
+		display: inline-flex;
+	}
 
 }
 
@@ -1851,4 +1862,3 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo { display: inline-block; }
 }
-
